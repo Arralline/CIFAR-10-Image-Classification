@@ -67,7 +67,7 @@ demo = gr.Interface(
     inputs=gr.Image(type="pil", label="Upload Image"),
     outputs=gr.Label(num_top_classes=3),
     title="CIFAR-10 Image Classifier (Transfer Learning)",
-    description="Upload an image to classify it into one of the 10 CIFAR-10 categories using a fine-tuned ResNet18 model.",
+    description="Upload an image among this list [airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck] to classify it into one of the 10 CIFAR-10 categories using a fine-tuned ResNet18 model.",
     examples=[]
 )
 
